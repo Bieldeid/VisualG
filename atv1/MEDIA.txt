@@ -20,29 +20,23 @@ leia (faltas)
 media <- (n1 + n2 + n3) / 3
 faltasP <- aulas * 0.25
 
-se media >= 7 entao
-se faltas <= faltasP entao
+se (media >= 7)  e (faltas <= faltasP) entao
 escreval ("Você foi aprovado!")
 escreval ("Sua média é de: ",media)
 fimse
-fimse
 
-se media <= 7 entao
-se faltas <= faltasP entao
 
+se (media <= 7) e (faltas <= faltasP) entao
 escreval ("Você foi reprovado!")
 escreval ("Sua média é de: ",media)
 escreva ("para ser aprovado é necessário ter a média maior que 7")
 fimse
-fimse
 
-se media >= 7 entao
-se faltas >= faltasP entao
+se (media >= 7) e (faltas >= faltasP) entao
 escreval ("Você foi reprovado!")
 escreval ("Sua média é de: ", media)
 escreval ("Porém, você excedeu a quantidade de faltas permitidas que é: ",faltasP)
 escreval ("Sua quantidade de faltas foi de: ",faltas)
-fimse
 fimse
 
 Fimalgoritmo
