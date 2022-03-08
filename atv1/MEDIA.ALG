@@ -1,0 +1,48 @@
+Algoritmo "Media"
+// Nome: Gabriel da Silva Oliveira dos Santos
+Var
+aulas : inteiro
+n1, n2, n3, media, faltasP, faltas :real
+
+
+Inicio
+escreval ("Escreva a primeira nota: ")
+leia (n1)
+escreval ("Escreva a segunda nota: ")
+leia (n2)
+escreval ("Escreva a terceira nota: ")
+leia (n3)
+escreval ("Escreva o número de aulas ministradas: ")
+leia (aulas)
+escreval ("Escreva o número de faltas: ")
+leia (faltas)
+
+media <- (n1 + n2 + n3) / 3
+faltasP <- aulas * 0.25
+
+se media >= 7 entao
+se faltas <= faltasP entao
+escreval ("Você foi aprovado!")
+escreval ("Sua média é de: ",media)
+fimse
+fimse
+
+se media <= 7 entao
+se faltas <= faltasP entao
+
+escreval ("Você foi reprovado!")
+escreval ("Sua média é de: ",media)
+escreva ("para ser aprovado é necessário ter a média maior que 7")
+fimse
+fimse
+
+se media >= 7 entao
+se faltas >= faltasP entao
+escreval ("Você foi reprovado!")
+escreval ("Sua média é de: ", media)
+escreval ("Porém, você excedeu a quantidade de faltas permitidas que é: ",faltasP)
+escreval ("Sua quantidade de faltas foi de: ",faltas)
+fimse
+fimse
+
+Fimalgoritmo
