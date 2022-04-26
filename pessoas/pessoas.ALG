@@ -54,7 +54,7 @@ fimpara
      escreval("-----------------------------------------------------------")
      
      escreval("-----------------------------------------------------------")
-     escreval ("Quantidade de pessoas ruivas que n�o possuem olhos azuis:",casoD)
+     escreval ("Quantidade de pessoas ruivas que não possuem olhos azuis:",casoD)
      escreval("-----------------------------------------------------------")
 
 

@@ -36,7 +36,6 @@ para i de 1 ate 15 faca
      fimse
 
      limpatela()
-     
 fimpara
      casoC <- (100 * casoC) / 15
      casoB <- casoB / 15
@@ -54,9 +53,6 @@ fimpara
      escreval("-----------------------------------------------------------")
      
      escreval("-----------------------------------------------------------")
-     escreval ("Quantidade de pessoas ruivas que n�o possuem olhos azuis:",casoD)
+     escreval ("Quantidade de pessoas ruivas que não possuem olhos azuis:",casoD)
      escreval("-----------------------------------------------------------")
-
-
-
 Fimalgoritmo
